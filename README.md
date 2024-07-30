@@ -13,33 +13,20 @@ The Financial Analyzer is a tool that analyzes trade history data from a provide
 
 To set up the Financial Analyzer, follow these steps:
 
-1. **Clone the Repository:**
-   \`\`\`bash
-   git clone https://github.com/sudhanshu8833/Financial_Analyzer.git
-   \`\`\`
-
-2. **Install Dependencies:**
+1. **Install Dependencies:**
    Navigate to the project directory and install the required packages:
-   \`\`\`bash
    pip3 install -r requirements.txt
-   \`\`\`
-
-3. **Run the Server:**
-   Start the application by running:
-   \`\`\`bash
-   python3 manage.py runserver
-   \`\`\`
-
+   
 ## Usage
 
 1. **Prepare Trade History Data:**
    Ensure your CSV file has the following columns in this exact order:
-   - \`datetime\`
-   - \`stock\`
-   - \`ordertype\`
-   - \`price\`
-   - \`quantity\`
-   - \`exchange\`
+   - datetime
+   - stock
+   - ordertype
+   - price
+   - quantity
+   - exchange
 
 2. **Upload Data:**
    Upload your trade history CSV file through the web interface or use the 'Upload Random Data' feature to test the tool.
@@ -57,7 +44,7 @@ To set up the Financial Analyzer, follow these steps:
 
 The project is structured into several sections:
 
-1. **Imports:** Necessary libraries like \`pandas\`, \`numpy\`, and \`matplotlib\`.
+1. **Imports:** Necessary libraries like pandas, numpy, and matplotlib.
 2. **Function Definitions:** Calculations for financial metrics.
 3. **Data Processing:** Loading and preparing data for analysis.
 4. **Financial Analysis:** Applying functions to generate results.
@@ -67,15 +54,13 @@ The project is structured into several sections:
 
 The Financial Analyzer relies on the following dependencies:
 
-- \`pandas\`
-- \`numpy\`
-- \`matplotlib\`
-- \`openai\`
+- pandas
+- numpy
+- matplotlib
+- openai
 
 Install these dependencies using:
-\`\`\`bash
 pip3 install -r requirements.txt
-\`\`\`
 
 ## Conclusion
 
