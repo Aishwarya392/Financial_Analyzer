@@ -1,1 +1,2 @@
 # Financial_Analyzer
+The Financial Analyzer is a tool that analyzes trade history data from a provided document with specific columns. It calculates various metrics and insights related to the trades, helping users understand patterns, performance, and potential areas for improvement. This documentation offers a detailed explanation of the project, covering its functionalities and the underlying code structure. The tool aims to assist users in making informed financial decisions based on their trade history analysis.
